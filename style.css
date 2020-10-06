@@ -1,0 +1,383 @@
+*
+{
+  background-color: #353E4F;
+  background-image:-moz-linear-gradient(left, white, black);
+  color: Black;
+  color: #9faab7;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.bouton, .bouton:active, .bouton::after, .bouton:checked, .bouton:disabled, .bouton:default, .bouton:enabled
+{
+  outline-style: none;
+  border-radius: 80px;
+  background-image:linear-gradient(60deg,#71DA98,#56C5ED);
+  padding: 15px 16px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  color: white;
+  border: 0px;
+  width: 280px;
+  height: 80px;
+  cursor: pointer;
+}
+.bouton:hover
+{
+
+  background-image:linear-gradient(60deg,#78da71,#56a9ed);
+
+
+}
+.bouton:active
+{
+  background-image:linear-gradient(60deg,#4fd345,#3c96e0);
+  box-shadow: 1px 1px 12px #18ea96;
+}
+.boutons
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#apropos, .retour
+{
+    outline-style: none;
+    border: 0px;
+    cursor: pointer;
+    font-size: 19px;
+    color: #71DA98;
+    font-weight: bold;
+}
+.retour:active, .retour:hover, .retour:after
+{
+  outline-style: none;
+  border: 0px;
+}
+#nom, #prenom, #email, #matricule, #submit{ border-radius: 50px; width: 400px; padding: 10px; margin: 24px;}
+{
+  width: 250px;
+
+}
+#submit
+{
+  width: 250px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+#profil1
+{
+  box-shadow: 1px 1px 12px #1993ea;
+}
+#profil2
+{
+  box-shadow: 1px 1px 12px #18c3ea;
+}
+#profil3
+{
+  box-shadow: 1px 1px 12px #17eaca;
+}
+#profil4
+{
+  box-shadow: 1px 1px 12px #16ea6e;
+}
+#profil5
+{
+  box-shadow: 1px 1px 12px #39ea16;
+}
+#profil6
+{
+  box-shadow: 1px 1px 12px #b5db0d;
+}
+.rounded
+{
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
+.equipe_nom
+{
+  font-weight: 800;
+  font-size: 17px;
+}
+#equipe
+{font-size: 35px;
+  margin-top: 50px;
+  font-weight: bolder;
+
+}
+.bas
+{
+  margin-top: 30px;
+}
+footer{
+  margin-top: 24px;
+
+}
+.search-form input{
+  background-color: transparent;
+  border: 0px;
+  width: 150px;
+  height: 30px;
+  color: black;
+}
+.search-form button, .search-form button:active
+{
+
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  height: 30px;
+}
+.fa-search
+  {
+    color: black;
+    font-size: 30px;
+    background-color: transparent;
+  }
+.search-form
+{
+  margin-top: 40px;
+  border-radius: 50px;
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin-left: 148px;
+
+
+}
+
+#header-tab
+{
+  margin-bottom: 40px;
+}
+#resultat-titre
+{
+  margin-top: 20px;
+  margin-right: 145px;
+  font-size: 50px;
+  font-weight: 800;
+}
+#bouton-stats
+{
+  margin-top: 40px;
+}
+.checked-ico
+{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.msg-redirct
+{
+  font-size: 20px;
+  font-weight:700;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+#incresult
+{
+  margin-top: 25px;
+}
+#mycanvas
+{
+  background-color: #353E4F;
+  color: #353E4F;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#dimp
+{
+  color: cornflowerblue;
+  font-weight: bolder;
+  font-size: 24px;
+}
+#samp
+{
+  color: lightgreen;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.pourcentage
+{
+  margin-bottom: 11px;
+}
+#retour_resultats, #retour_aporpos, #retour_form
+ {
+   position: fixed;
+   left: 14px;
+   top: 20px;
+}
+#incform
+{
+  margin-top: -4px;
+}
+#incpropos
+{ position: fixed;
+  left: 610px;
+  bottom: 15px;
+}
+.fa-envelope
+{
+  background-color: transparent;
+  color: white;
+}
+.fa-arrow-left
+{
+  background-color: transparent;
+}
+#incmod
+{
+  position: fixed;
+  bottom: -7px;
+  left: 610px;
+}
+#retour_form_mod
+{
+  position: fixed;
+  left: 14px;
+  top: 20px;
+}
+#bouton_non
+{
+  margin-left: -430px;
+  font-size:33px;
+  width: 195px;
+  font-weight: bolder;
+  border-radius: 50px;
+}
+#bouton-oui
+{
+  margin-right: -430px;
+  font-size:33px;
+  width: 195px;
+  font-weight: bolder;
+  border-radius: 50px;
+}
+#message_supp
+{
+  margin-top: -15px;
+  margin-bottom: 55px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#logo_danger_supp
+{
+  margin-top: 60px;
+}
+#incsupp
+{
+  position: fixed;
+  bottom: -8px;
+  left: 610px;
+}
+////////////////////////////////////////////////////////////////////////////////
+@-webkit-keyframes
+click-wave { 0% {
+ width: 40px;
+ height: 40px;
+ opacity: 0.35;
+ position: relative;
+}
+ 100% {
+ width: 200px;
+ height: 200px;
+ margin-left: -80px;
+ margin-top: -80px;
+ opacity: 0.0;
+}
+}
+@-moz-keyframes
+click-wave { 0% {
+ width: 40px;
+ height: 40px;
+ opacity: 0.35;
+ position: relative;
+}
+ 100% {
+ width: 200px;
+ height: 200px;
+ margin-left: -80px;
+ margin-top: -80px;
+ opacity: 0.0;
+}
+}
+@-o-keyframes
+click-wave { 0% {
+ width: 40px;
+ height: 40px;
+ opacity: 0.35;
+ position: relative;
+}
+ 100% {
+ width: 200px;
+ height: 200px;
+ margin-left: -80px;
+ margin-top: -80px;
+ opacity: 0.0;
+}
+}
+@keyframes
+click-wave { 0% {
+ width: 40px;
+ height: 40px;
+ opacity: 0.35;
+ position: relative;
+}
+ 100% {
+ width: 200px;
+ height: 200px;
+ margin-left: -80px;
+ margin-top: -80px;
+ opacity: 0.0;
+}
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  margin-right: 0.5rem;
+  z-index: 1000;
+}
+
+.option-input:hover { background: #9faab7; }
+
+.option-input:checked { background: #40e0d0; }
+
+
+.option-input.radio { border-radius: 50%; }
+
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio::after { border-radius: 50%; }
