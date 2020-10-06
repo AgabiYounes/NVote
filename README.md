@@ -3,12 +3,12 @@
 
 **N'Voté** is a web application for managing voting in amphitheater has a single page named index.html, which contain the following features:
 
-* Display of the votes already expressed (name, first name, email, date of vote) in the form of a table (with about ten lines) 
-* Adding a vote via a form 
-* Deletion of a vote 
-* Modification of a vote 
-* Search for a vote 
-* Show/hide voting statistics
+* Display of candidates and their votes number  (name, first name, email, date of vote) in the form of a table (with about ten lines) 
+* Adding a vote via a form. 
+* Deletion of a vote.
+* Modification of a vote.
+* Search for a vote.
+* Show/hide voting statistics.
 ## ScreenShots
 some screenshots of the NVoté interface
 
