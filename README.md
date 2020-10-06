@@ -1,7 +1,7 @@
 # N'Voté
 
 
-**N'Voté** is a web application for managing voting in amphitheater has a single page named index.html, which will contain the following features:
+**N'Voté** is a web application for managing voting in amphitheater has a single page named index.html, which contain the following features:
 
 * Display of the votes already expressed (name, first name, email, date of vote) in the form of a table (with about ten lines) 
 * Adding a vote via a form 
