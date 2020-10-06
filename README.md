@@ -11,6 +11,7 @@
 * Show/hide voting statistics
 ## ScreenShots
 some screenshots of the NVoté interface
+
 **Screen N°1**
 ![NVote Structure](/Screens/Screen1.png)
 **Screen N°2**
